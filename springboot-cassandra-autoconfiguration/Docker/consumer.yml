@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+
+  consumer:
+    image: consumer01
+    network_mode: 'bridge'
+    ports:
+    - "8609:8080"
